@@ -1,0 +1,16 @@
+{
+  "name": "Time of day",
+  "version": "0.1.0",
+  "description": "Trigger behaviours based on the time of day",
+  "icon": "clock",
+  "config": [],
+  "events": {
+    "fromCogs": [],
+    "toCogs": [
+      {
+        "name": "Clock Strikes",
+        "value": { "type": "string" }
+      }
+    ]
+  }
+}

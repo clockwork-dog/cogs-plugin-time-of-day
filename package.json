@@ -1,0 +1,17 @@
+{
+  "name": "cogs-plugin-http",
+  "version": "0.1.0",
+  "description": "HTTP plugin for COGS",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dog.clockwork.time-of-day && mkdir -p dog.clockwork.time-of-day/node_modules/@clockworkdog/cogs-client/dist/browser && cp src/index.html src/index.js cogs-plugin-manifest.json dog.clockwork.time-of-day && cp node_modules/@clockworkdog/cogs-client/dist/browser/index.js dog.clockwork.time-of-day/node_modules/@clockworkdog/cogs-client/dist/browser"
+  },
+  "dependencies": {
+    "@clockworkdog/cogs-client": "^1.2.0"
+  },
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^4.7.4"
+  }
+}
